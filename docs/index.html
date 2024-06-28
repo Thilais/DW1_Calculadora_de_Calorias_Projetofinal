@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Calorias</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Calculadora de Calorias</h1>
+  </header>
+  <div class="container">
+    <div class="food-section">
+      <img class="food" src="assets/images/banana.png" alt="Banana" draggable="true" data-calories="89">
+      <img class="food" src="assets/images/batatamc.png" alt="Batata MC" draggable="true" data-calories="295">
+      <img class="food" src="assets/images/brigadeiro.png" alt="Brigadeiro" draggable="true" data-calories="124">
+      <img class="food" src="assets/images/hotdog.png" alt="Hot Dog" draggable="true" data-calories="290">
+      <img class="food" src="assets/images/maca.png" alt="Maçã" draggable="true" data-calories="52">
+      <img class="food" src="assets/images/pao.png" alt="Pão" draggable="true" data-calories="310">
+    </div>
+    <div class="plates-section">
+      <div class="plate-container" id="plate-container1">
+        <div class="plate" id="plate1">
+          <div class="dropzone"></div>
+        </div>
+        <div class="calories">Calorias: <span id="calories1">0</span> kcal</div>
+      </div>
+      <div class="plate-container" id="plate-container2">
+        <div class="plate" id="plate2">
+          <div class="dropzone"></div>
+        </div>
+        <div class="calories">Calorias: <span id="calories2">0</span> kcal</div>
+      </div>
+    </div>
+    <button id="reset-button">Reset</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
