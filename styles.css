@@ -1,0 +1,103 @@
+header {
+  position: fixed; /* Fixa o cabeçalho no topo da página */
+  top: 0; /* Alinha o cabeçalho no topo */
+  width: 100%; /* Define a largura do cabeçalho para ocupar toda a largura da tela */
+  background-color: #3498db; /* Cor de fundo do cabeçalho */
+  color: #fff; /* Cor do texto do cabeçalho */
+  text-align: center; /* Centraliza o texto */
+  padding: 4px 0; /* Espaçamento interno do cabeçalho */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Sombra suave */
+  z-index: 1000; /* Garante que o cabeçalho esteja acima de outros conteúdos */
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  background-image: url('assets/images/fundo.jpg'); /* Caminho para sua imagem de fundo */
+  background-size: cover; /* Cobrir toda a área */
+  background-position: center; /* Centralizar a imagem */
+  background-repeat: no-repeat; /* Não repetir a imagem */
+  overflow-x: hidden; /* Esconde a barra de rolagem horizontal */
+  height: 100vh; /* Garante que o body ocupe toda a altura da viewport */
+}
+
+.container {
+  text-align: center;
+}
+
+.food-section {
+  
+  margin-top: 120px;
+}
+
+.food {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  background-color: #efa7f1;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.plates-section {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 800px;
+}
+
+.plate-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.plate {
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  background-image: url('assets/images/lancheira3.png');
+  background-size: cover;
+  border: 1px solid #ccc;
+  position: relative;
+  margin-bottom: 10px;
+  display: flex; /* Adicionado para usar flexbox */
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  align-items: center; /* Centraliza os itens verticalmente */
+}
+
+.dropzone {
+  height: 100%;
+  width: 100%;
+  border: 2px dashed transparent;
+  position: relative;
+}
+
+.calories {
+  font-weight: bold;
+  font-size: 20px;
+  background-color:chocolate ;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#reset-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.food {
+  width: 60px;
+  height: auto; 
+}
+
+
+
