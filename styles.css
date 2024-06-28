@@ -31,9 +31,11 @@ body {
 }
 
 .food-section {
-  
+  background-color: cadetblue;
   margin-top: 120px;
 }
+
+
 
 .food {
   display: inline-block;
