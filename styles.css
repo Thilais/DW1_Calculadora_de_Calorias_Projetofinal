@@ -1,13 +1,3 @@
-header {
-  top: 0; /* Alinha o cabeçalho no topo */
-  width: 100%; /* Define a largura do cabeçalho para ocupar toda a largura da tela */
-  background-color: #3498db; /* Cor de fundo do cabeçalho */
-  color: #fff; /* Cor do texto do cabeçalho */
-  text-align: center; /* Centraliza o texto */
-  padding: 4px 0; /* Espaçamento interno do cabeçalho */
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Sombra suave */
-}
-
 
 body {
   font-family: Arial, sans-serif;
