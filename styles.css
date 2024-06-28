@@ -6,11 +6,12 @@ body {
   align-items: center;
   flex-direction: column;
   margin: 0;
-  background-image: url('assets/images/background.jpg'); /* Caminho para sua imagem de fundo */
-  background-size: cover; /* Cobrir toda a área */
-  background-position: center; /* Centralizar a imagem */
-  background-repeat: no-repeat; /* Não repetir a imagem */
-  overflow-x: hidden; /* Esconde a barra de rolagem horizontal */
+  background-image: url('assets/images/fundo.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  overflow-x: hidden; 
+  height: 100vh; /* Garante que o body ocupe toda a altura da viewport */
 }
 
 .container {
